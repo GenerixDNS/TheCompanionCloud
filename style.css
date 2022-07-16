@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1C1A20;
+}
+
+.container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("images/abstract.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.head0 {
+    position: absolute;
+    font-family: "Segoe UI", serif;
+    color: white;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 35%;
+    font-size: 11vmin;
+}
+
+.head1 {
+    position: absolute;
+    font-family: "Segoe UI", serif;
+    font-style: normal;
+    color: white;
+    font-size: 3.5vmin;
+    left: 50%;
+    top: 46%;
+    transform: translate(-50%, -50%);
+    font-weight: normal;
+}
+
+.install-fast:hover {
+    zoom: 110%;
+}
+
+.install-fast {
+    cursor: pointer;
+    position: absolute;
+    background-color: #00ffba;
+    height: 6vmin;
+    width: 25vmin;
+    border-radius: 46px;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+    transition: 1s;
+}
+
+#social-links {
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    height: 50vmin;
+    width: 100vmin;
+    top: 300%;
+    transform: translate(-50%, -50%);
+}
+
+#install-fast-text {
+    cursor: pointer;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: normal;
+    font-family: "Segoe UI", serif;
+    color: white;
+}
+
+#impress {
+    background-color: #1C1A20;
+    position: absolute;
+    left: 50%;
+    height: 5vmin;
+    width: 80vmin;
+    top: 350%;
+    transform: translate(-50%, -50%);
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
