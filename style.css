@@ -62,8 +62,8 @@ body {
     position: absolute;
     left: 50%;
     height: 50vmin;
-    width: 100vmin;
-    top: 300%;
+    width: 100%;
+    top: 250%;
     transform: translate(-50%, -50%);
 }
 
@@ -84,8 +84,70 @@ body {
     left: 50%;
     height: 5vmin;
     width: 80vmin;
-    top: 350%;
+    top: 150%;
     transform: translate(-50%, -50%);
+}
+
+#abstract-color-pink-0 {
+    width: 80vmin;
+    position: absolute;
+    left: 0;
+    top: 180%;
+    z-index: 20;
+    transform: translate(-50%, -50%);
+}
+
+#abstract-color-pink-1 {
+    width: 80vmin;
+    position: absolute;
+    right: -19%;
+    top: 230%;
+    z-index: 20;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+}
+
+#content {
+    position: absolute;
+    display: flex;
+    left: 50%;
+    top: 120%;
+    font-family: "Segoe UI", serif;
+    color: white;
+    transform: translate(-50%, -50%);
+}
+
+.content-img:hover {
+    transform: scale(1.5);
+}
+
+#content-0 {
+    padding-right: 10vmin;
+}
+
+#content-2 {
+    padding-left: 10vmin;
+}
+
+.content-cart {
+    text-align: center;
+    white-space: nowrap;
+}
+
+.content-text {
+    width: 10vmin;
+}
+
+.content-header {
+    padding-bottom: 4vmin;
+}
+
+.content-img {
+    -webkit-filter: invert(100%);
+    padding-bottom: 3vmin;
+    filter: invert(100%);
+    width: 5vmin;
+    transition: 500ms;
 }
 
 ::-webkit-scrollbar {
